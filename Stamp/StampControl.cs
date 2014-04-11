@@ -53,7 +53,7 @@ namespace Stamp
 				RectangleF rec2 = new RectangleF(2, -6, ImageSizeX - 1, ImageSizeY - 1);
 				graphics.DrawString(this._name.Trim(), fnt, Brushes.Red, rec2, sf);
 
-				fnt = new Font("ＭＳ 明朝", 10);
+				fnt = new Font("ＭＳ 明朝", 9);
 				sf.LineAlignment = StringAlignment.Center;
 				graphics.DrawString(this._date.Trim(), fnt, Brushes.Red, graphics.VisibleClipBounds, sf);
 
